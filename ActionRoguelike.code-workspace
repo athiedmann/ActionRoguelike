@@ -1,0 +1,577 @@
+{
+	"folders": [
+		{
+			"name": "ActionRoguelike",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "/Users/Shared/Epic Games/UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp",
+			"vadimcn.vscode-lldb",
+			"ms-vscode.mono-debug",
+			"dfarley1.file-picker"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "ActionRoguelike Mac Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Debug",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Debug",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ActionRoguelike Mac Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Debug",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"DebugGame",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"DebugGame",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ActionRoguelike Mac DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"DebugGame",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Development",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Development",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ActionRoguelike Mac Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Development",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Test Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Test",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Test Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Test",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ActionRoguelike Mac Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Test Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Test",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Shipping Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Shipping",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Shipping Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Shipping",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ActionRoguelike Mac Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelike Mac Shipping Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelike",
+					"Mac",
+					"Shipping",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelikeEditor Mac Debug Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelikeEditor",
+					"Mac",
+					"Debug",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelikeEditor Mac Debug Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelikeEditor",
+					"Mac",
+					"Debug",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ActionRoguelikeEditor Mac Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelikeEditor Mac Debug Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelikeEditor",
+					"Mac",
+					"Debug",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelikeEditor Mac DebugGame Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelikeEditor",
+					"Mac",
+					"DebugGame",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelikeEditor Mac DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelikeEditor",
+					"Mac",
+					"DebugGame",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ActionRoguelikeEditor Mac DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelikeEditor Mac DebugGame Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelikeEditor",
+					"Mac",
+					"DebugGame",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelikeEditor Mac Development Build",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelikeEditor",
+					"Mac",
+					"Development",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelikeEditor Mac Development Rebuild",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelikeEditor",
+					"Mac",
+					"Development",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"ActionRoguelikeEditor Mac Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			},
+			{
+				"label": "ActionRoguelikeEditor Mac Development Clean",
+				"group": "build",
+				"command": "Engine/Build/BatchFiles/Mac/Build.sh",
+				"args": [
+					"ActionRoguelikeEditor",
+					"Mac",
+					"Development",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-waitmutex",
+					"-clean"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "/Users/Shared/Epic Games/UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch ActionRoguelike (Debug)",
+				"request": "launch",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+				"preLaunchTask": "ActionRoguelike Mac Debug Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.3",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ActionRoguelike (DebugGame)",
+				"request": "launch",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+				"preLaunchTask": "ActionRoguelike Mac DebugGame Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.3",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ActionRoguelike (Development)",
+				"request": "launch",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+				"preLaunchTask": "ActionRoguelike Mac Development Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.3",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ActionRoguelike (Test)",
+				"request": "launch",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+				"preLaunchTask": "ActionRoguelike Mac Test Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.3",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ActionRoguelike (Shipping)",
+				"request": "launch",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+				"preLaunchTask": "ActionRoguelike Mac Shipping Build",
+				"args": [
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.3",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ActionRoguelikeEditor (Debug)",
+				"request": "launch",
+				"program": "/Users/Shared/Epic Games/UE_5.3/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
+				"preLaunchTask": "ActionRoguelikeEditor Mac Debug Build",
+				"args": [
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.3",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ActionRoguelikeEditor (DebugGame)",
+				"request": "launch",
+				"program": "/Users/Shared/Epic Games/UE_5.3/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
+				"preLaunchTask": "ActionRoguelikeEditor Mac DebugGame Build",
+				"args": [
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.3",
+				"type": "lldb"
+			},
+			{
+				"name": "Launch ActionRoguelikeEditor (Development)",
+				"request": "launch",
+				"program": "/Users/Shared/Epic Games/UE_5.3/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
+				"preLaunchTask": "ActionRoguelikeEditor Mac Development Build",
+				"args": [
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"
+				],
+				"cwd": "/Users/Shared/Epic Games/UE_5.3",
+				"type": "lldb"
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Mac Development Build",
+				"program": "/Users/Shared/Epic Games/UE_5.3/Engine/Build/BatchFiles/RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "internalConsole",
+				"internalConsoleOptions": "openOnSessionStart",
+				"stopAtEntry": false,
+				"cwd": "/Users/Shared/Epic Games/UE_5.3"
+			}
+		]
+	}
+}
