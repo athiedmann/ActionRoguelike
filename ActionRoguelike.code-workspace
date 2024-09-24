@@ -33,7 +33,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Debug",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -50,7 +50,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Debug",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -70,7 +70,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Debug",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -88,7 +88,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"DebugGame",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -105,7 +105,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"DebugGame",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -125,7 +125,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"DebugGame",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -143,7 +143,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Development",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -160,7 +160,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Development",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -180,7 +180,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Development",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -198,7 +198,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Test",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -215,7 +215,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Test",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -235,7 +235,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Test",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -253,7 +253,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Shipping",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -270,7 +270,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Shipping",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -290,7 +290,7 @@
 					"ActionRoguelike",
 					"Mac",
 					"Shipping",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -308,7 +308,7 @@
 					"ActionRoguelikeEditor",
 					"Mac",
 					"Debug",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -325,7 +325,7 @@
 					"ActionRoguelikeEditor",
 					"Mac",
 					"Debug",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -345,7 +345,7 @@
 					"ActionRoguelikeEditor",
 					"Mac",
 					"Debug",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -363,7 +363,7 @@
 					"ActionRoguelikeEditor",
 					"Mac",
 					"DebugGame",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -380,7 +380,7 @@
 					"ActionRoguelikeEditor",
 					"Mac",
 					"DebugGame",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -400,7 +400,7 @@
 					"ActionRoguelikeEditor",
 					"Mac",
 					"DebugGame",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -418,7 +418,7 @@
 					"ActionRoguelikeEditor",
 					"Mac",
 					"Development",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -435,7 +435,7 @@
 					"ActionRoguelikeEditor",
 					"Mac",
 					"Development",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex"
 				],
 				"problemMatcher": "$msCompile",
@@ -455,7 +455,7 @@
 					"ActionRoguelikeEditor",
 					"Mac",
 					"Development",
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-waitmutex",
 					"-clean"
 				],
@@ -473,7 +473,7 @@
 			{
 				"name": "Launch ActionRoguelike (Debug)",
 				"request": "launch",
-				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-Debug.app/Contents/MacOS/UnrealGame-Mac-Debug",
 				"preLaunchTask": "ActionRoguelike Mac Debug Build",
 				"args": [
 				],
@@ -483,7 +483,7 @@
 			{
 				"name": "Launch ActionRoguelike (DebugGame)",
 				"request": "launch",
-				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-DebugGame.app/Contents/MacOS/UnrealGame-Mac-DebugGame",
 				"preLaunchTask": "ActionRoguelike Mac DebugGame Build",
 				"args": [
 				],
@@ -493,7 +493,7 @@
 			{
 				"name": "Launch ActionRoguelike (Development)",
 				"request": "launch",
-				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/Binaries/Mac/UnrealGame.app/Contents/MacOS/UnrealGame",
 				"preLaunchTask": "ActionRoguelike Mac Development Build",
 				"args": [
 				],
@@ -503,7 +503,7 @@
 			{
 				"name": "Launch ActionRoguelike (Test)",
 				"request": "launch",
-				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-Test.app/Contents/MacOS/UnrealGame-Mac-Test",
 				"preLaunchTask": "ActionRoguelike Mac Test Build",
 				"args": [
 				],
@@ -513,7 +513,7 @@
 			{
 				"name": "Launch ActionRoguelike (Shipping)",
 				"request": "launch",
-				"program": "/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
+				"program": "/Users/athiedmann/Unreal/ActionRoguelike/Binaries/Mac/UnrealGame-Mac-Shipping.app/Contents/MacOS/UnrealGame-Mac-Shipping",
 				"preLaunchTask": "ActionRoguelike Mac Shipping Build",
 				"args": [
 				],
@@ -526,7 +526,7 @@
 				"program": "/Users/Shared/Epic Games/UE_5.3/Engine/Binaries/Mac/UnrealEditor-Mac-Debug.app/Contents/MacOS/UnrealEditor-Mac-Debug",
 				"preLaunchTask": "ActionRoguelikeEditor Mac Debug Build",
 				"args": [
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject"
 				],
 				"cwd": "/Users/Shared/Epic Games/UE_5.3",
 				"type": "lldb"
@@ -537,7 +537,7 @@
 				"program": "/Users/Shared/Epic Games/UE_5.3/Engine/Binaries/Mac/UnrealEditor-Mac-DebugGame.app/Contents/MacOS/UnrealEditor-Mac-DebugGame",
 				"preLaunchTask": "ActionRoguelikeEditor Mac DebugGame Build",
 				"args": [
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject"
 				],
 				"cwd": "/Users/Shared/Epic Games/UE_5.3",
 				"type": "lldb"
@@ -548,7 +548,7 @@
 				"program": "/Users/Shared/Epic Games/UE_5.3/Engine/Binaries/Mac/UnrealEditor.app/Contents/MacOS/UnrealEditor",
 				"preLaunchTask": "ActionRoguelikeEditor Mac Development Build",
 				"args": [
-					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject"
+					"/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject"
 				],
 				"cwd": "/Users/Shared/Epic Games/UE_5.3",
 				"type": "lldb"
@@ -562,7 +562,7 @@
 				"args": [
 					"-projectfiles",
 					"-vscode",
-					"-project=/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike/ActionRoguelike.uproject",
+					"-project=/Users/athiedmann/Unreal/ActionRoguelike/ActionRoguelike.uproject",
 					"-game",
 					"-engine",
 					"-dotnet"
